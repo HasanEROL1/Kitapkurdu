@@ -7,6 +7,7 @@ Kitap Kurdu
 -Ana sayfa, ürünler sayfası ve kategori sayfası
 
 -Kitap kategorileri (Hikaye, Roman) arasında geçiş
+![kitapkurdu](https://github.com/user-attachments/assets/04a90c44-d3f3-4380-a8bc-0eb30374b557)
 
 -Detay sayfasında kitap hakkında daha fazla bilgi
 
@@ -22,4 +23,4 @@ Kullanılan Teknolojiler
 
 
 
-![kitapkurdu](https://github.com/user-attachments/assets/47c5a56a-76b8-4093-9e0d-d4379c55b822)
+)
