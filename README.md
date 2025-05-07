@@ -19,3 +19,4 @@ Kullanılan Teknolojiler
 -React Router
 
 -Bootstrap (styling)
+![kitapkurdu](https://github.com/user-attachments/assets/47c5a56a-76b8-4093-9e0d-d4379c55b822)
