@@ -1,0 +1,103 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+img {
+    object-fit: cover;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #646cff;
+
+}
+
+a:hover {
+    color: #533bf2;
+}
+
+.active {
+    text-shadow: 0 0 8px #646cff;
+}
+
+.page {
+
+    background-color: #242424;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-size: 3.2 rem !important;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+    .card {
+
+
+        img {
+            max-height: 250px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Basit bir gölge ekler */
+    background-color: white;
+    /* Kartın arka plan rengini beyaz yapar */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.not-found-image {
+    max-height: 400px;
+    aspect-ratio: 1;
+}
+
+@media (min-width:1100px) {
+    .not-found-image {
+        max-height: 300px;
+        aspect-ratio: 1;
+    }
+}
